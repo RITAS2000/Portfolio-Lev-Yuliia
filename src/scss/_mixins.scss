@@ -1,0 +1,89 @@
+@use "./base.scss";
+
+@mixin button($max-width: 278px, $height: 48px) {
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 1px 4px 1px var(--bc2);
+    border-top: 3px inset var(--bc1);
+    border-right: 1px solid var(--bc2);
+    border-left: 1px solid var(--bc2);
+    border-bottom: 3px solid var(--bc3);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: var(--btc);
+    font-family: 'Goblin One', cursive;
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+    max-width: $max-width;
+    height: $height;
+    background: radial-gradient(circle at bottom, var(--gc1), var(--gc2), var(--gc3)), var(--bgi) no-repeat center / cover;
+    transition: background 2s ease;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            box-shadow: inset 0 1px 4px 1px #051f05;
+            background: radial-gradient(circle at bottom, var(--gc1), var(--gc2h), var(--gc3h));
+            opacity: 0;
+            transition: opacity 0.8s ease;
+            z-index: 0;
+    
+        }
+    
+        >span {
+            position: relative;
+            z-index: 1;
+        }
+    
+        &:hover::before,
+        &:focus::before {
+            opacity: 1;
+        }
+}
+
+@mixin input($max-width: 343px, $height: 44px, $margin-bottom: 16px) {
+    width: 100%;
+    max-width: $max-width;
+    height: $height;
+    padding: 12px 12px 12px 38px;
+    font-family: "Gabarito", sans-serif;
+    font-size: 14px;
+    border-top: 3px inset var(--bc1);
+    border-right: 1px solid var(--bc2);
+    border-left: 1px solid var(--bc2);
+    border-bottom: 3px solid var(--bc3);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 8px;
+    background: var(--bgci);
+    margin-bottom: $margin-bottom;
+    transition: background 0.8s ease, box-shadow 0.8s ease;
+    
+    &:hover,
+    &:focus {
+        background: #fff;
+        box-shadow: 0 0 6px 2px var(--bc2);
+    }
+}
+
+@mixin title(){
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #f0691b;
+    margin-bottom: 8px;
+    -webkit-text-stroke: 1px #102c12;    
+}
+
+@mixin text(){
+    font-family: "Gabarito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #102c12;
+    text-align: center;
+}   
