@@ -73,3 +73,16 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 374px) {
+    .hero-titel {
+        font-size: 28px;
+    }
+    
+    .hero-img {
+        width: 210px;
+        height: 210px;
+        margin-right: 60px;
+          
+    }
+}
