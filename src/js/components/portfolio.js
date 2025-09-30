@@ -81,8 +81,8 @@ export default function Portfolio() {
   <a href="https://github.com/RITAS2000/project-dcgroup" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a></div>
   <div class="project-contianer-text">
   <div>
- <p class="project-item-text"><span class="project-item-span">Type:</span> Solo</p>
- <p class="project-item-text"><span class="project-item-span">Year:</span> 2025</p>
+ <p class="project-item-text"><span class="project-item-span">Type:</span> Group</p>
+ <p class="project-item-text"><span class="project-item-span">Year:</span> 2024</p>
  </div>
  <p class="project-item-text">Led a team of 9 developers in creating a website using the Vite bundler, which ensured fast builds and a smooth development process. This project became a valuable hands-on experience in honing teamwork skills, maintaining code quality, and meeting deadlines.</p>
  <p class="project-item-text"><span class="project-item-span">Tech Stack:</span> HTML, CSS, JavaScript.</p>
