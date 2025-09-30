@@ -7,6 +7,8 @@ export default function Footer() {
     <p class="logo-name">Lev Yuliia</p>
     <p class="logo-text">Full-Stack</p></div>
     </div>
-    </a><p class="footer-text">© 2025 Lev Yuliia - RITAS System</p>`;
+    </a>
+    <p>далі буде))</p>
+    <p class="footer-text">© 2025 Lev Yuliia - RITAS System</p>`;
   return footer;
 }

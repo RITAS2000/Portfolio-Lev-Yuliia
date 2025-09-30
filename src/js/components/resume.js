@@ -1,5 +1,7 @@
 export default function Resume() {
-  const resumeSection = document.createElement('resume-section');
+  const resumeSection = document.createElement('section');
+  resumeSection.classList.add('container', 'resume-section');
+  resumeSection.id = 'resume';
   resumeSection.classList.add('container', 'resume-section');
   resumeSection.innerHTML = `<div class="resume-text-container"><h2 class="resume-title">Resume</h2><p class="resume-text">You can download or print my resume directly in the window below.</p></div>
    <div class="resume-container">
