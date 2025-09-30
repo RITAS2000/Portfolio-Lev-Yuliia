@@ -82,7 +82,7 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    height: 290px;
+    height: auto;
     padding: 16px 12px;
     background: var(--bgci);
     box-shadow: inset 0 1px 4px 1px var(--bc2);
@@ -99,3 +99,4 @@
 .project-item-span {
     font-weight: 600;
 }
+
