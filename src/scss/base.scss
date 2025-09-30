@@ -1,4 +1,6 @@
+@use "mixins" as mix;
 @use "variables" as var;
+
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap");
@@ -19,8 +21,11 @@
     --herotc: #f0691b;
     --herotcb: #0c08da;
     --bsh1:rgba(14, 77, 20, 0.8);
-     
+    --listbc: #03043a;
+    --bodygrad1: 25, 7, 187;
+    --bodygrad2: 187, 238, 187;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -32,6 +37,26 @@
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 24px;
     border-top-right-radius: 24px;
-    // border: 1px solid var(--bc2);
     border-top: 2px solid var(--bc2);
+}
+
+.form-title,
+.resume-title,
+.certifications-title,
+.about-me-title,
+.skills-title,
+.portfolio-title {
+  @include mix.title();
+  
+}
+.form-text,
+.resume-text,
+.certifications-text,
+.skills-text,
+.portfolio-text {
+    font-family: "Gabarito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--bc4);
+    text-align: center;
 }

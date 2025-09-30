@@ -17,9 +17,10 @@ export default function AboutMe() {
 <p>I believe that work should not only deliver results but also bring joy.</p>
 </li>
 </ul>
-<div class="plush-img-container"><img src="../../../public/plush2.png" class="plush-img">
-<img src="../../../public/plush2.png" class="plush-img">
-<img src="../../../public/plush2.png" class="plush-img"></div>
+<div class="plush-img-container">
+<img src="/plush2.png" class="plush-img">
+<img src="/plush2.png" class="plush-img">
+<img src="/plush2.png" class="plush-img"></div>
 <ul class="about-me-list">
   <li class="about-me-list-item">
     <p>I have completed courses at GoIT School and received a certificate as a Full-Stack Developer.</p>
@@ -31,13 +32,13 @@ export default function AboutMe() {
     <p>I also have experience working with databases and deploying projects using cloud platforms.</p>
   </li>
 </ul>
-<div class="plush-img-container"><img src="../../../public/plush2.png" class="plush-img">
-<img src="../../../public/plush2.png" class="plush-img">
-<img src="../../../public/plush2.png" class="plush-img"></div>
+<div class="plush-img-container">
+<img src="/plush2.png" class="plush-img">
+<img src="/plush2.png" class="plush-img">
+<img src="/plush2.png" class="plush-img"></div>
   <div class="about-me-list">
   <p class="about-me-list-item">Outside of work, I like hanging out with my family or diving into computer games.</p>
   </div>
- 
   </div>
   </div>`;
   return aboutMeSection;

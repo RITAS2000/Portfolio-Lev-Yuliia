@@ -25,8 +25,8 @@ export default function MySkills() {
     <div class="swiper-slide"><div class="slide-item"><p class="item-text">Render</p></div></div>
   </div>
 </div>
- <div class=" custom-prev"><img src="../../../public/plush2.png" width="30" hieght="30" class="rotate90"></div>
-  <div class="custom-next"><img src="../../../public/plush2.png" width="30" hieght="30" class="rotate-90"></div>
+ <div class=" custom-prev"><img src="/plush2.png" width="30" hieght="30" class="rotate90"></div>
+  <div class="custom-next"><img src="/plush2.png" width="30" hieght="30" class="rotate-90"></div>
   </div>`;
   return skillsSection;
 }

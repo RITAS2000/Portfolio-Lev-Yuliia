@@ -1,0 +1,122 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.skills-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.swiper-skills {
+    border-radius: 16px;
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: var(--bgchf);
+    box-shadow: 0 0px 10px 3px var(--bc2);
+}
+
+.custom-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 85%;
+    left: 0px;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--bc4);
+    background: var(--bgci);
+    transition: box-shadow 0.8s ease;
+}
+
+.custom-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 85%;
+    right: 0px;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--bc4);
+    background: var(--bgci);
+    transition: box-shadow 0.8s ease;
+}
+
+.custom-prev:hover,
+.custom-next:hover,
+.custom-prev:focus,
+.custom-next:focus {
+    box-shadow: inset 0 1px 4px 1px var(--bc2);
+}
+
+.swiper-skills .swiper-slide {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    flex-shrink: 0;
+    background: var(--bgchf);
+    margin: auto 0;
+}
+
+.slide-item {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: var(--bgci);
+    box-shadow: inset 0 1px 4px 1px var(--bc2);
+    border-top: 3px inset var(--bc1);
+    border-right: 1px solid var(--bc2);
+    border-left: 1px solid var(--bc2);
+    border-bottom: 3px solid var(--bc3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.8s ease;
+}
+
+// .slide-item:hover {
+//   transform: scale(1.2);
+// }
+.swiper-slide-active {
+    transform: scale(1.4);
+}
+
+.item-text {
+    font-family: "Gabarito", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--bc4);
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+
+}
+
+.rotate90 {
+    transform: rotate(-90deg);
+
+}

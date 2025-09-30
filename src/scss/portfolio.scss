@@ -1,0 +1,101 @@
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 343px;
+    background: var(--listbc);
+    border-top: 3px inset var(--bc1);
+    border-right: 1px solid var(--bc2);
+    border-left: 1px solid var(--bc2);
+    border-bottom: 3px solid var(--bc3);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    padding: 20px 16px 16px 16px;
+}
+
+.portfolio-img {
+    width: 100%;
+    max-width: 309px;
+    height: 200px;
+    border-radius: 8px;
+    transition: box-shadow 0.8s ease;
+}
+
+.portfolio-img:hover {
+    box-shadow: 0 0 6px 2px var(--bgci);
+}
+
+.project-name {
+    font-family: 'Goblin One', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--bgci);
+}
+
+.project-link {
+    border: 1px solid var(--bgchf);
+    padding: 4px 8px;
+    border-radius: 24px;
+    font-family: "Gabarito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--bgchf);
+    transition: box-shadow 0.8s ease, transform 0.8s ease;
+}
+
+.project-link:hover,
+.project-link:focus {
+    box-shadow: 0 0 6px 2px var(--bgci);
+    transform: scale(1.01);
+
+}
+
+.project-container-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.project-contianer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 290px;
+    padding: 16px 12px;
+    background: var(--bgci);
+    box-shadow: inset 0 1px 4px 1px var(--bc2);
+    border-radius: 4px;
+}
+
+.project-item-text {
+    font-family: "Gabarito", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bc4);
+}
+
+.project-item-span {
+    font-weight: 600;
+}

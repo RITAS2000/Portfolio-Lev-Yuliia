@@ -1,0 +1,75 @@
+@use "./mixins" as mix;
+
+.hero-section {
+    padding: 36px 16px 24px 16px;
+    width: 100%;
+    max-width: 375px;
+    height: 540px;
+    margin: 0 auto;
+    background: linear-gradient(140deg,
+            rgba(var(--bodygrad1), 0.8),
+            rgba(var(--bodygrad2), 0) 70%), url(../image/hero.jpg) no-repeat center / cover;
+
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 24px;
+    border-top: 2px solid var(--bc2);
+    margin-bottom: 2px;
+}
+
+.hero-titel {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--herotc);
+    text-align: center;
+    margin-bottom: 8px;
+    -webkit-text-stroke: 1px var(--bgci);
+}
+
+.hero-text {
+    font-family: "Gabarito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--bc4);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.hero-img {
+    width: 240px;
+    height: 240px;
+    margin-right: 80px;
+    border-radius: 50%;
+    box-shadow: -5px 10px 18px var(--bsh1);
+    border-top: 2px solid var(--bc2);
+    border-right: 1px solid var(--bc1);
+    border-bottom: 3px solid var(--bc2);
+    border-left: 4px solid var(--bc2);
+}
+
+.hero-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.gh-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hero-link,
+.resume-link {
+    @include mix.button(182px, 48px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
