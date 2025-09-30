@@ -82,8 +82,8 @@
 }
 
 .slide-item {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     background: var(--bgci);
     box-shadow: inset 0 1px 4px 1px var(--bc2);
@@ -97,11 +97,8 @@
     transition: transform 0.8s ease;
 }
 
-// .slide-item:hover {
-//   transform: scale(1.2);
-// }
 .swiper-slide-active {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 .item-text {
