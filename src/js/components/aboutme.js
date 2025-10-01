@@ -11,11 +11,6 @@ export default function AboutMe() {
   <li class="about-me-list-item">
   <p>I love working in a team and have experience as a team lead. I always motivate my colleagues with the motto:
   <span class="span-two-text">"If you don't know how to do it — just start!"</span></p></li>
- <li class="about-me-list-item">
- <p>When it comes to achieving goals, I follow the <span class="span-two-text">RRR</span> principle — <span class="span-two-text">Resolve</span>, <span class="span-two-text">Resolution</span>, <span class="span-two-text">Result</span>.</p></li>
-<li class="about-me-list-item">
-<p>I believe that work should not only deliver results but also bring joy.</p>
-</li>
 </ul>
 <div class="plush-img-container">
 <img src="/plush2.png" class="plush-img">
@@ -36,9 +31,16 @@ export default function AboutMe() {
 <img src="/plush2.png" class="plush-img">
 <img src="/plush2.png" class="plush-img">
 <img src="/plush2.png" class="plush-img"></div>
-  <div class="about-me-list">
-  <p class="about-me-list-item">Outside of work, I like hanging out with my family or diving into computer games.</p>
-  </div>
+  <ul class="about-me-list">
+  <li class="about-me-list-item">
+ <p>When it comes to achieving goals, I follow the <span class="span-two-text">RRR</span> principle — <span class="span-two-text">Resolve</span>, <span class="span-two-text">Resolution</span>, <span class="span-two-text">Result</span>.</p></li>
+  <li class="about-me-list-item">
+<p>I believe that work should not only deliver results but also bring joy.</p>
+</li>
+  <li class="about-me-list-item">
+  <p>Outside of work, I like hanging out with my family or diving into computer games.</p>
+  </li>
+  </ul>
   </div>
   </div>`;
   return aboutMeSection;

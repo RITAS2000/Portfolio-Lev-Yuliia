@@ -8,7 +8,7 @@
     margin: 0 auto;
     background: linear-gradient(140deg,
             rgba(var(--bodygrad1), 0.8),
-            rgba(var(--bodygrad2), 0) 70%), url(../image/hero.jpg) no-repeat center / cover;
+            rgba(var(--bodygrad2), 0) 70%), url(../image/small-hero.jpg) no-repeat center / cover;
 
     border-top-left-radius: 4px;
     border-bottom-right-radius: 24px;
@@ -32,7 +32,7 @@
     font-family: "Gabarito", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: var(--bc4);
+    color: var(--bgchf);
     text-align: center;
     margin-bottom: 24px;
 }
@@ -42,7 +42,7 @@
     height: 240px;
     margin-right: 80px;
     border-radius: 50%;
-    box-shadow: -5px 10px 18px var(--bsh1);
+    box-shadow: 3px 7px 10px var(--bgchf);
     border-top: 2px solid var(--bc2);
     border-right: 1px solid var(--bc1);
     border-bottom: 3px solid var(--bc2);

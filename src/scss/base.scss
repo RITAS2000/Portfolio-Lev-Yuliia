@@ -24,6 +24,8 @@
     --listbc: #03043a;
     --bodygrad1: 25, 7, 187;
     --bodygrad2: 187, 238, 187;
+    --input-invalid:  #f51111;
+    --input-valid: #2de92d;
 }
 
 .container {
@@ -47,7 +49,7 @@
 .skills-title,
 .portfolio-title {
   @include mix.title();
-  
+
 }
 .form-text,
 .resume-text,

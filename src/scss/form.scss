@@ -22,6 +22,15 @@
 .input {
     @include mix.input()
 }
+.input.touched-invalid{
+    border-top: 3px inset var(--input-invalid);
+   
+}
+
+.input.touched-valid {
+    border-top: 3px inset var(--input-valid);
+   
+}
 
 input:-webkit-autofill {
     box-shadow: 0 0 0 1000px #fff inset !important;
