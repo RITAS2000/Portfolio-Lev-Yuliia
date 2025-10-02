@@ -1,5 +1,6 @@
 export default function Form() {
   const formSection = document.createElement('section');
+  formSection.id = 'form';
   formSection.classList.add('container', 'form-section');
 
   formSection.addEventListener('input', event => {

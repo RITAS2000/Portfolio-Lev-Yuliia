@@ -60,6 +60,7 @@ body {
 }
 body.modal-open {
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 main{
     display: flex;

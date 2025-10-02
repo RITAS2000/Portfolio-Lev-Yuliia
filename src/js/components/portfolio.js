@@ -1,5 +1,6 @@
 export default function Portfolio() {
   const sectionPortfolio = document.createElement('section');
+  sectionPortfolio.id = 'portfolio';
   sectionPortfolio.classList.add('container', 'portfolio-section');
   sectionPortfolio.innerHTML = `<div><h2 class="portfolio-title">Portfolio</h2><p class="portfolio-text">Here, you can view some projects from my training practice — both individual and group projects.</p></div>
   <ul class="portfolio-list">

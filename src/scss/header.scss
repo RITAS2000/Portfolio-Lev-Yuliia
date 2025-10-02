@@ -29,10 +29,18 @@
     border-radius: 24px;
     padding: 8px 6px 8px 3px;
     border: 2px solid var(--bc2);
+    background: #bbeebb;
     border-left: none;
     width: 157.36px;
     height: 67px;
+    box-shadow: inset 0 1px 4px 1px var(--bgci);
+   
 
+}
+.logo-container:hover .logo,
+.logo-container:focus .logo {
+    transform: scale(1.05);
+    
 }
 
 .logo {
@@ -43,7 +51,7 @@
     border-left: 1px solid var(--bc1);
     width: 60px;
     height: 60px;
-    box-shadow: inset 0 1px 4px 1px var(--bc2);
+    transition: transform 0.8s ease;
 
 }
 
@@ -76,36 +84,52 @@
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transform: translateX(100%);
-}
-.backdrop-burger.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: initial;
-    transform: translateX(0);
+    transition: opacity 0.3s ease;
     z-index: 1000;
     backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.6);
-}
-.modal {
-    position: absolute;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 50%;
-    left: 50%;
-    background:var(--bgchf);
-    background-position: center;
-    width: 100vw;
+    justify-content: flex-end;
+}
+
+.backdrop-burger.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.modal {
+    background: var(--bgchf);
+    width: 300px;
     height: 100vh;
-    transform: translate(-50%, -50%) scale(1);
-    z-index: 20;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.backdrop-burger.is-open .modal {
+    transform: translateX(0);
+}
+.modal-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.modal-close-btn svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: var(--bc4)
 }

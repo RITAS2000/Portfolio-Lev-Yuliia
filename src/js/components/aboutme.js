@@ -1,5 +1,6 @@
 export default function AboutMe() {
   const aboutMeSection = document.createElement('section');
+  aboutMeSection.id = 'aboutme';
   aboutMeSection.classList.add('container', 'about-me-section');
   aboutMeSection.innerHTML = `<div><h2 class="about-me-title">About Me</h2>
   <div class="about-me-container">

@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 2px;
 }
 
 .skills-container {
@@ -11,6 +12,8 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
+    
 }
 
 .swiper-skills {
@@ -21,6 +24,7 @@
     border-radius: 50%;
     background: var(--bgchf);
     box-shadow: 0 0px 10px 3px var(--bc2);
+    margin-top: 30px;
 }
 
 .custom-prev {
@@ -86,7 +90,7 @@
     height: 175px;
     border-radius: 50%;
     background: var(--bgci);
-    box-shadow: inset 0 1px 4px 1px var(--bc2);
+   
     border-top: 3px inset var(--bc1);
     border-right: 1px solid var(--bc2);
     border-left: 1px solid var(--bc2);
@@ -116,4 +120,31 @@
 .rotate90 {
     transform: rotate(-90deg);
 
+}
+
+.soft-list {
+    width: 100%;
+    max-width: 343px;
+    margin-top: 20px;
+    padding: 24px 14px 24px 14px;
+    border-top: 3px inset var(--bc1);
+    border-right: 1px solid var(--bc2);
+    border-left: 1px solid var(--bc2);
+    border-bottom: 3px solid var(--bc3);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--bgci);
+    box-shadow: inset 0 1px 4px 1px var(--herotc);
+}
+.skills-soft-item {
+    font-family: "Gabarito",
+    sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bc4);
 }
