@@ -50,13 +50,32 @@ input:-webkit-autofill {
     transition: fill 0.8s ease;
 }
 
-label:hover .form-icon,
-label:focus-within .form-icon {
-    fill: var(--bc1);
+// label:hover .form-icon,
+// label:focus-within .form-icon {
+//     fill: var(--bc1);
 
+// }
+
+// label:hover .form-icon g,
+// label:focus-within .form-icon g {
+//     stroke: var(--bc1);
+// }
+
+.js-input-message {
+    position: absolute;
+    margin-top: 64px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
 }
-
-label:hover .form-icon g,
-label:focus-within .form-icon g {
-    stroke: var(--bc1);
+.js-textaera-message {
+    position: absolute;
+    margin-top: 152px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
 }
