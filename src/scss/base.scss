@@ -1,6 +1,6 @@
 @use "mixins" as mix;
 @use "variables" as var;
-
+@import "modern-normalize/modern-normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap");
