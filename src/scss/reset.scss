@@ -58,6 +58,9 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+body.modal-open {
+    overflow: hidden;
+}
 main{
     display: flex;
     flex-direction: column;
