@@ -13,7 +13,7 @@
     align-items: center;
     gap: 16px;
     padding: 24px 8px 24px 8px;
-    background: var(--bgchf);
+    background: var(--bgci);
     border-top: 3px inset var(--bc1);
     border-right: 1px solid var(--bc2);
     border-left: 1px solid var(--bc2);
@@ -30,7 +30,7 @@
     flex-direction: column;
     background: var(--bgci);
     border-radius: 4px;
-    box-shadow: inset 0 1px 4px 1px var(--bc2);
+    box-shadow:  0 1px 4px 1px var(--bc2);
 }
 .about-me-list-item {
     font-family: "Gabarito", sans-serif;
@@ -69,7 +69,6 @@
     .about-me-list-item {
         font-size: 16px;
         padding: 16px 12px 12px 12px;
-        border-bottom: 1px solid var(--bc2);
-        border-radius: 4px;
+       
     }
 }   

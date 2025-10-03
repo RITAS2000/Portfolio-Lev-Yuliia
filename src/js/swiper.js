@@ -10,7 +10,24 @@ export default function swiperSkills() {
   new Swiper('.swiper-skills', {
     modules: [Navigation, Keyboard],
     slidesPerView: 1,
+    centeredSlides: true,
     spaceBetween: 20,
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      // коли ширина >= 1024px
+      //   1024: {
+      //     slidesPerView: 3,
+      //     spaceBetween: 30,
+      //   },
+      //   // коли ширина >= 1440px
+      //   1440: {
+      //     slidesPerView: 4,
+      //     spaceBetween: 40,
+      //   },
+    },
     loop: true,
     pagination: {
       el: '.swiper-pagination',
