@@ -6,6 +6,7 @@
 }
 html {
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 ul {
     margin: 0;
@@ -60,7 +61,7 @@ body {
 }
 body.modal-open {
     overflow: hidden;
-    scroll-behavior: smooth;
+    
 }
 main{
     display: flex;

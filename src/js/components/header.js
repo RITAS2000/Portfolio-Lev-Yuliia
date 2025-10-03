@@ -10,8 +10,11 @@ export default function Header() {
     </div>
     </a>
     <button type="button" class="burger">
-    <svg class="icon" width="32" height="32">
-  <use href="/icons.svg#icon-burger"></use>
+    <svg class="icon" width="32" height="32" viewBox="0 0 24 24">
+    <polygon stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" points="20 18 4 18"/>
+    <polygon stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" points="20 14 4 14"/>
+    <polygon stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" points="20 10 4 10"/>
+    <polygon stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" points="20 6 4 6"/>
   </svg>
   </button>
  <div class="backdrop-burger" id="mobile-menu">
@@ -21,12 +24,14 @@ export default function Header() {
          <path fill-rule="evenodd" d="M16.293 17.707a1 1 0 001.414-1.414L11.414 10l6.293-6.293a1 1 0 00-1.414-1.414L10 8.586 3.707 2.293a1 1 0 00-1.414 1.414L8.586 10l-6.293 6.293a1 1 0 101.414 1.414L10 11.414l6.293 6.293z"/>
       </svg>
     </button>
-    <nav><ul>
-    <li><a href="#aboutme">About My</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#form">Connect</a></li>
-    </ul></nav>
+    <nav class="modal-nav">
+    <ul class="modal-nav-list">
+    <li><a href="#aboutme" class="modal-nav-link">About My</a></li>
+    <li><a href="#skills" class="modal-nav-link">Skills</a></li>
+    <li><a href="#portfolio" class="modal-nav-link">Portfolio</a></li>
+    <li><a href="#form" class="modal-nav-link">Connect</a></li>
+    </ul>
+    <a href="#resume" class="modal-resume-link"><span>Resume</span></a></nav>
   </div>
 </div>
   </section>`;
