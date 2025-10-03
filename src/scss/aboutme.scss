@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding: 24px 14px 24px 14px;
+    padding: 24px 8px 24px 8px;
     background: var(--bgchf);
     border-top: 3px inset var(--bc1);
     border-right: 1px solid var(--bc2);
@@ -27,7 +27,7 @@
 
 .about-me-list {
     width: 100%;
-    max-width: 313px;
+    max-width: 333px;
     display: flex;
     flex-direction: column;
     background: var(--bgci);

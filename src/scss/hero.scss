@@ -62,8 +62,13 @@
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
-}
+    transition: box-shadow 0.8s ease, transform 0.8s ease;
 
+}
+.gh-link:hover {
+    box-shadow: 0 0 6px 2px var(--bgci);
+    transform: scale(0.97);
+}
 .hero-link,
 .resume-link {
     @include mix.button(182px, 48px);

@@ -38,11 +38,12 @@
     max-width: 309px;
     height: 200px;
     border-radius: 8px;
-    transition: box-shadow 0.8s ease;
+    transition: box-shadow 0.8s ease, transform 0.8s ease;
 }
 
 .portfolio-img:hover {
     box-shadow: 0 0 6px 2px var(--bgci);
+    transform: scale(0.97);
 }
 
 .project-name {

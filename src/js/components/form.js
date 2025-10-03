@@ -41,7 +41,7 @@ export default function Form() {
           input.classList.remove('touched-invalid');
           input.classList.add('touched-valid');
           span.textContent = 'Email looks valid';
-          span.style.color = '#2de92d';
+          span.style.color = 'green';
         }
       } else if (input.name === 'message') {
         if (!input.checkValidity()) {
@@ -53,7 +53,7 @@ export default function Form() {
           input.classList.remove('touched-invalid');
           input.classList.add('touched-valid');
           span.textContent = 'Looks good!';
-          span.style.color = '#2de92d';
+          span.style.color = 'green';
         }
       }
     }
@@ -99,9 +99,12 @@ export default function Form() {
     };
 
     console.log(data); // тут далі відправка через fetch чи інший метод
+
     form.reset();
     form.querySelectorAll('.input').forEach(input => {
       input.classList.remove('touched-invalid', 'touched-valid');
+      const span = input.nextElementSibling;
+      if (span) span.textContent = '';
     });
   });
 

@@ -6,7 +6,6 @@ import AboutMe from './components/aboutme.js';
 import MySkills from './components/skills.js';
 import Portfolio from './components/portfolio.js';
 import Resume from './components/resume.js';
-import Certifications from './components/certifications.js';
 import Form from './components/form.js';
 import Footer from './components/footer.js';
 
@@ -20,7 +19,6 @@ mainI.appendChild(AboutMe());
 mainI.appendChild(MySkills());
 mainI.appendChild(Portfolio());
 mainI.appendChild(Resume());
-mainI.appendChild(Certifications());
 mainI.appendChild(Form());
 bodyI.appendChild(Footer());
 
