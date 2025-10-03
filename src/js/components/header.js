@@ -9,6 +9,13 @@ export default function Header() {
     <p class="logo-text">Full-Stack</p></div>
     </div>
     </a>
+      <nav class="header-nav">
+    <ul class="header-nav-list">
+    <li><a href="#aboutme" class="header-nav-link">About My</a></li>
+    <li><a href="#skills" class="header-nav-link">Skills</a></li>
+    <li><a href="#portfolio" class="header-nav-link">Portfolio</a></li>
+    <li><a href="#form" class="header-nav-link">Connect</a></li>
+    </ul></nav>
     <button type="button" class="burger">
     <svg class="icon" width="32" height="32" viewBox="0 0 24 24">
     <polygon stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" points="20 18 4 18"/>
@@ -31,7 +38,7 @@ export default function Header() {
     <li><a href="#portfolio" class="modal-nav-link">Portfolio</a></li>
     <li><a href="#form" class="modal-nav-link">Connect</a></li>
     </ul>
-    <a href="#resume" class="modal-resume-link"><span>Resume</span></a></nav>
+    <a href="https://www.canva.com/design/DAGi4BypnSM/SBUeIUMxwoWk9knlu18kuQ/view?utm_content=DAGi4BypnSM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h206f792fbb" target="_blank" rel="noreferrer noopener" class="modal-resume-link"><span>Resume</span></a></nav>
   </div>
 </div>
   </section>`;
@@ -40,7 +47,16 @@ export default function Header() {
   const openMenuBtn = header.querySelector('.burger');
   const closeModalBtn = header.querySelector('.modal-close-btn');
   const modalLinks = header.querySelectorAll('.modal nav a');
+  const links = header.querySelectorAll('.header-nav-list a');
 
+  links.forEach(link => {
+    link.addEventListener('click', function () {
+      // прибираємо current у всіх
+      links.forEach(l => l.classList.remove('current'));
+      // додаємо тільки на натиснуте
+      this.classList.add('current');
+    });
+  });
   let scrollPosition = 0;
 
   function openModal() {

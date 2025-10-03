@@ -101,3 +101,19 @@
     font-weight: 600;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .portfolio-section {
+        padding-bottom: 6px;
+        }
+    .portfolio-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+    .project-contianer-text {
+        height: 281px;
+    }
+}
