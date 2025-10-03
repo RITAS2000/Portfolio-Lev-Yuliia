@@ -1,6 +1,9 @@
 @use "./mixins" as mix;
 
 .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 36px 16px 24px 16px;
     width: 100%;
     max-width: 375px;
@@ -16,6 +19,20 @@
     border-top-right-radius: 24px;
     border-top: 2px solid var(--bc2);
 }
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+.hero-text-container {
+    width: 100%;
+    max-width: 343px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 
 .hero-titel {
     font-family: 'Walter Turncoat', cursive;
@@ -23,7 +40,7 @@
     font-weight: 400;
     color: var(--herotc);
     text-align: center;
-    margin-bottom: 8px;
+   
     -webkit-text-stroke: 1px var(--bgci);
 }
 
@@ -33,10 +50,10 @@
     font-weight: 400;
     color: var(--bgchf);
     text-align: center;
-    margin-bottom: 24px;
+
 }
 
-.hero-img {
+.hero-img-container {
     width: 240px;
     height: 240px;
     margin-right: 80px;
@@ -46,14 +63,22 @@
     border-right: 1px solid var(--bc1);
     border-bottom: 3px solid var(--bc2);
     border-left: 4px solid var(--bc2);
+    overflow: hidden;
+    
 }
-
+.hero-img {
+    border-top: 2px solid var(--bc2);
+    border-right: 1px solid var(--bc1);
+    border-bottom: 3px solid var(--bc2);
+    border-left: 4px solid var(--bc2);
+    border-radius: 50%;
+    box-shadow: 3px 7px 10px var(--bgchf);
+}
 .hero-links {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 34px;
 }
 
 .gh-link {
@@ -69,8 +94,7 @@
     box-shadow: 0 0 6px 2px var(--bgci);
     transform: scale(0.97);
 }
-.hero-link,
-.resume-link {
+.hero-link {
     @include mix.button(182px, 48px);
     
     display: flex;
@@ -83,10 +107,54 @@
         font-size: 28px;
     }
     
-    .hero-img {
+    .hero-img-container {
         width: 210px;
         height: 210px;
         margin-right: 75px;
           
+    }
+    .hero-img {
+        width: 185px;
+        height: 185px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero-section {
+        padding: 44px 44px 34px 34px;
+        max-width: 768px;
+        height: 500px;
+        background: linear-gradient(140deg,
+                rgba(var(--bodygrad1), 0.8),
+                rgba(var(--bodygrad2), 0) 70%), url(../image/tablet-hero.jpg) no-repeat center / cover;
+    }
+    .hero-container {
+        flex-direction: row;
+        gap: 44px;
+    }
+    .hero-text-container {
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .hero-titel {
+        font-size: 54px;
+        font-weight: 400;
+    }
+        .hero-text {
+           
+            font-size: 24px;
+        
+    
+        }
+    .hero-img-container {
+        width: 320px;
+        height: 320px;
+        margin-right: 0;
+    }
+    .hero-img {
+        width: 290px;
+        height: 290px;
+    }
+    .hero-link {
+        margin-left: 83px;
     }
 }

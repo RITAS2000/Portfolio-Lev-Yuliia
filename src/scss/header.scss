@@ -134,9 +134,6 @@
 .backdrop-burger.is-open .modal {
     transform: translateX(0);
 }
-.backdrop-burger.is-closing .modal {
-    transform: translateX(100%);
-}
 .modal-close-btn {
     position: absolute;
     top: 16px;
