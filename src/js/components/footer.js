@@ -8,7 +8,13 @@ export default function Footer() {
     <p class="logo-text">Full-Stack</p></div>
     </div>
     </a>
-    <p>далі буде))</p>
+   
+    <address class="footer-address">
+    <div class="address-item">Ukraine, Lviv</div>
+    <div class="address-item">Telegram: @ritas_2000</div>
+    <div class="address-item">Email: <a href="mailto:yuliya.lev.2000@gmail.com" class="emeil-link">yuliya.lev.2000@gmail.com</a></div>
+   
+    </address>
     <p class="footer-text">© 2025 Lev Yuliia - RITAS System</p>`;
   return footer;
 }
