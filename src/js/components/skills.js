@@ -34,14 +34,21 @@ export default function MySkills() {
   <div>
   <p class="skills-text">Take a look at my soft skills that support me in my development work.</p>
   <ul class="soft-list">
-  <li class="skills-soft-item"><p><span class="span-two-text">Independent thinking</span> - I always analyze first and try solutions independently.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Systemic thinking</span> - I understand how different parts of code and the project interact.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Organization</span> - I keep files, project structure, and UI organized.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Analytical skills</span> - I find bugs and solve them logically.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Patience</span> - I test and fix issues until everything works correctly.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Creativity</span> - I generate ideas for UI, animations, and game elements.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Communication</span> - I clearly formulate requests and explain code logic.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Flexibility</span> - I quickly adapt to new technologies.</p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Teamwork</span> - I integrate my solutions into the team project.</p></li></ul></div>`;
+  <li class="skills-soft-item"><p><span class="span-two-text">Independent thinking</span> <span>- I always analyze first and try solutions independently.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Systemic thinking</span> <span>- I understand how different parts of code and the project interact.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Organization</span> <span>- I keep files, project structure, and UI organized.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Analytical skills</span> <span>- I find bugs and solve them logically.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Patience</span> <span>- I test and fix issues until everything works correctly.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Creativity</span> <span>- I generate ideas for UI, animations, and game elements.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Communication</span> <span>- I clearly formulate requests and explain code logic.</span></p></li>
+
+<li class="skills-soft-item"><p><span class="span-two-text">Flexibility</span> <span>- I quickly adapt to new technologies.</span></p></li>
+<li class="skills-soft-item"><p><span class="span-two-text">Teamwork</span> <span>- I integrate my solutions into the team project.</span></p></li></ul></div>`;
   return skillsSection;
 }

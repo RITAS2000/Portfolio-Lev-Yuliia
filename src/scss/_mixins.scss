@@ -75,7 +75,13 @@
     font-weight: 400;
     color: #f0691b;
     margin-bottom: 16px;
-    -webkit-text-stroke: 1px #102c12;    
+    text-align: start;
+    -webkit-text-stroke: 1px #102c12;   
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
 }
 
 @mixin text(){
@@ -84,4 +90,9 @@
     font-weight: 400;
     color: #102c12;
     text-align: center;
-}   
+
+    @media screen  and (min-width: 768px) and (max-width: 1199px){
+        font-size: 20px;
+    }
+}    
+  

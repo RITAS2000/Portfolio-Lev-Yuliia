@@ -24,6 +24,7 @@
     --listbc: #03043a;
     --bodygrad1: 25, 7, 187;
     --bodygrad2: 187, 238, 187;
+    --gradfors: 247, 248, 229;
     --input-invalid:  #f51111;
     --input-valid: #2de92d;
 }
@@ -56,13 +57,18 @@
 .certifications-text,
 .skills-text,
 .portfolio-text {
-    font-family: "Gabarito", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: var(--bc4);
-    text-align: center;
+    @include mix.text();
 }
 .span-two-text {
     font-family: Walter Turncoat, cursive;
     color: var(--herotc)
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+   
 }
