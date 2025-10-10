@@ -8,6 +8,11 @@
     padding-top: 40px;
     padding-bottom: 60px;
 }
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .form {
     width: 100%;
     max-width: 343px;

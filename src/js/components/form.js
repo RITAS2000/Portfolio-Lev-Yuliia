@@ -59,7 +59,7 @@ export default function Form() {
     }
   });
 
-  formSection.innerHTML = `<div><h2 class="form-title">Let's Connect!</h2>
+  formSection.innerHTML = `<div class='title-container'><h2 class="form-title">Let's Connect!</h2>
   <p class="form-text">You can write me a message, share your thoughts, or simply leave a comment using this form.</p></div>
 
   <form class="form">
