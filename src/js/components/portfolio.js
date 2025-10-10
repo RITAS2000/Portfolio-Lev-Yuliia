@@ -5,10 +5,10 @@ export default function Portfolio() {
   sectionPortfolio.innerHTML = `<div><h2 class="portfolio-title">Portfolio</h2><p class="portfolio-text">Here, you can view some projects from my training practice — both individual and group projects.</p></div>
   <ul class="portfolio-list">
   <li class="portfolio-item">
-  <a href="https://cars-project-azure.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/my-portfolio.jpg" class="portfolio-img" alt="My Portfolio"></a>
+  <a href="https://portfolio-lev-yuliia.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/my-portfolio-rrr.jpg" class="portfolio-img" alt="My Portfolio"></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">My Portfolio</h3>
-  <a href="https://github.com/RITAS2000/cars-project" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a>
+  <a href="https://github.com/RITAS2000/Portfolio-Lev-Yuliia" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a>
   </div>
   <div class="project-contianer-text">
   <div>
