@@ -17,16 +17,10 @@ export default function swiperSkills() {
         slidesPerView: 3,
         spaceBetween: 20,
       },
-      // коли ширина >= 1024px
-      //   1024: {
-      //     slidesPerView: 3,
-      //     spaceBetween: 30,
-      //   },
-      //   // коли ширина >= 1440px
-      //   1440: {
-      //     slidesPerView: 4,
-      //     spaceBetween: 40,
-      //   },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 20,
+      },
     },
     loop: true,
     pagination: {

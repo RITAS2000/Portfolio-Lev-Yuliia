@@ -167,15 +167,13 @@
     align-items: center;
     flex-shrink: 0;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+@media screen and (min-width: 768px) {
     .section-big {
         padding: 16px 24px 16px 24px;
         max-width: 768px;
         height: 100px;
     }
-    
-}
-@media screen and (min-width: 768px) {
     .burger {
             display: none;
         }
@@ -183,3 +181,17 @@
         display: flex;
     }
 }  
+
+@media screen and (min-width: 1200px) {
+    .section-big {
+        padding: 26px 64px 26px 24px;
+        max-width: 1200px;
+        height: 120px;
+    }
+    .header-nav-list {
+        gap: 60px;
+    }
+    .header-nav-link {
+        font-size: 24px;
+    }
+}

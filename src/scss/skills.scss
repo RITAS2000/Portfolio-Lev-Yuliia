@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     padding-top: 40px;
     padding-bottom: 2px;
@@ -150,7 +151,7 @@
     color: var(--bc4);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
     .swiper-skills {
         min-height: 280px;
         max-width: 700px;
@@ -173,5 +174,14 @@
     .skills-soft-item {
         font-size: 16px;
     }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .swiper-skills {
+        min-height: 300px;
+        max-width: 1156px;
+        border-radius: 42%;
+        }
     
 }
