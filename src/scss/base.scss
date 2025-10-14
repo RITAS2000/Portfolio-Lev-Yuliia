@@ -24,7 +24,9 @@
     --herotcb: #0c08da;
     --bsh1:rgba(14, 77, 20, 0.8);
     --listbc: #03043a;
-    --bodygrad1: 25, 7, 187;
+        --bodygrad1: 0,
+        0,
+        0;
     --bodygrad2: 187, 238, 187;
     --gradfors: 247, 248, 229;
     --input-invalid:  #f51111;
@@ -48,7 +50,7 @@
     --herotcb: #5271ff;
     --bsh1: rgba(255, 255, 255, 0.1);
     --listbc: #0d0d1f;
-    --bodygrad1: 0, 0, 0;
+    
         /* чорний */
         --bodygrad2: 255, 165, 100;
     // --bodygrad1: 10, 10, 30;

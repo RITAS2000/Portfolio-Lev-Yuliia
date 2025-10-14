@@ -9,7 +9,7 @@
     margin: 0 auto;
     padding: 24px 16px;
     background: linear-gradient(to bottom,
-                rgba(var(--bodygrad2), 0.9),
+                rgba(var(--bodygrad1), 0.9),
                 rgba(var(--bodygrad2), 0.4) 95%), url(../image/small-hero.jpg) no-repeat center / cover;
     border-top: 3px solid var(--bc2);
     border-top-left-radius: 24px;
@@ -53,8 +53,8 @@
         height: 205px;
         gap: 0px;
         background: linear-gradient(to bottom,
-                    rgba(var(--bodygrad2), 1),
-                    rgba(var(--gradfors), 0.4) 35%), url(../image/tablet-hero.jpg) no-repeat center / cover;
+                    rgba(var(--bodygrad1), 1),
+                    rgba(var(--bodygrad2), 0.4) 35%), url(../image/tablet-hero.jpg) no-repeat center / cover;
     }
     .footer-address {
         align-self: flex-end;
@@ -66,8 +66,8 @@
     .footer-section {
         max-width: 1200px;
         background: linear-gradient(to bottom,
-                rgba(var(--bodygrad2), 1),
-                rgba(var(--gradfors), 0.4) 35%), url(../image/desk-hero.jpg) no-repeat center / cover;
+                rgba(var(--bodygrad1), 1),
+                rgba(var(--bodygrad2), 0.4) 35%), url(../image/desk-hero.jpg) no-repeat center / cover;
     }
 
     .footer-address {
