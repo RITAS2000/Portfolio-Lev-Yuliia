@@ -1,5 +1,6 @@
 import '../scss/style.scss';
 import swiperSkills from './swiper.js';
+import './theme.js';
 import Header from './components/header.js';
 import Hero from './components/hero.js';
 import AboutMe from './components/aboutme.js';

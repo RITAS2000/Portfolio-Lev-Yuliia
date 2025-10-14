@@ -53,6 +53,7 @@ input:-webkit-autofill {
     left: 8px;
     top: 32px;
     fill: var(--bc3);
+    stroke: var(--bc3);
     transition: fill 0.8s ease;
 }
 .js-input-message {

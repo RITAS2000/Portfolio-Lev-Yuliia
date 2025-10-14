@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap");
 :root{
+    --bgbody: #bbeebb;
     --gc1: #{var.$gradient-color1};
     --gc2: #{var.$gradient-color2};
     --gc3: #{var.$gradient-color3};
@@ -18,6 +19,7 @@
     --bc2: #{var.$border-color2};           
     --bc3: #{var.$border-color3};
     --bc4: #102c12;
+    --bc5: #102c12;
     --herotc: #f0691b;
     --herotcb: #0c08da;
     --bsh1:rgba(14, 77, 20, 0.8);
@@ -27,8 +29,63 @@
     --gradfors: 247, 248, 229;
     --input-invalid:  #f51111;
     --input-valid: #2de92d;
+    --color: #102c12;
+}
+.dark-theme {
+    --bgbody: #0f0f0f;
+    --gc1: #0d0d0d;
+    --gc2: #1a1a1a;
+    --gc3: #333333;
+    --gc2h: #444444;
+    --gc3h: #555555; 
+    --bgchf: #da6334;
+    --btc: #ffffff;
+    --bc1: #555;
+    // --bc2: #444;
+    // --bc3: #f04a08;
+    --bc4: #0f0f0f;
+    --bc5: #d2d8d2;
+    --herotcb: #5271ff;
+    --bsh1: rgba(255, 255, 255, 0.1);
+    --listbc: #0d0d1f;
+    --bodygrad1: 0, 0, 0;
+        /* чорний */
+        --bodygrad2: 255, 165, 100;
+    // --bodygrad1: 10, 10, 30;
+    // --bodygrad2: 30, 30, 60;
+    --gradfors: 40, 40, 40;
+    --color: #d2d8d2;
+}
+.star {
+    position: absolute;
+    animation: blink 2.5s infinite;
 }
 
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+ .rotating-star {
+     animation: spin 5s linear infinite;
+     /* обертання 5 секунд безперервно */
+ }
+
+ @keyframes spin {
+     from {
+         transform: rotate(0deg);
+     }
+
+     to {
+         transform: rotate(360deg);
+     }
+ }
 .container {
     display: flex;
     justify-content: center;

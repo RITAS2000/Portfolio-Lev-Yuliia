@@ -83,7 +83,7 @@
     color: #f0691b;
     margin-bottom: 16px;
     text-align: start;
-    -webkit-text-stroke: 1px #102c12;   
+    -webkit-text-stroke: 1px var(--color);   
 
     @media screen and (min-width: 768px) {
             font-size: 36px;
@@ -95,7 +95,7 @@
     font-family: "Gabarito", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #102c12;
+    color: var(--color);
     text-align: center;
 
     @media screen  and (min-width: 768px){

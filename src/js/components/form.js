@@ -64,15 +64,13 @@ export default function Form() {
 
   <form class="form">
     <label class="label">Name
-    <svg class="form-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32">
- <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM16.961 22.22c4.383-0.866 7.785-2.861 9.014-5.519-0.677 5.249-5.047 9.299-10.339 9.299-3.726 0-6.996-2.009-8.84-5.030 2.2 1.721 6.079 2.056 10.165 1.249zM20 11c0-1.657 0.895-3 2-3s2 1.343 2 3c0 1.657-0.895 3-2 3s-2-1.343-2-3zM11 11.609c-1.306 0-2.417 0.489-2.829 1.172-0.111-0.183-0.171-1.005-0.171-1.211 0-0.971 1.343-1.758 3-1.758s3 0.787 3 1.758c0 0.206-0.061 1.028-0.171 1.211-0.412-0.683-1.522-1.172-2.829-1.172z"></path>
-    </svg>
+   <svg  class="form-icon" width="22" height="22" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"  viewBox="0 0 24 24"><path d="M9.5,11c-.276,0-.5-.224-.5-.5,0-1.215-.771-2.5-1.5-2.5s-1.5,1.285-1.5,2.5c0,.276-.224,.5-.5,.5s-.5-.224-.5-.5c0-1.652,1.069-3.5,2.5-3.5s2.5,1.848,2.5,3.5c0,.276-.224,.5-.5,.5Zm9.5-.5c0-1.652-1.069-3.5-2.5-3.5s-2.5,1.848-2.5,3.5c0,.276,.224,.5,.5,.5s.5-.224,.5-.5c0-1.215,.771-2.5,1.5-2.5s1.5,1.285,1.5,2.5c0,.276,.224,.5,.5,.5s.5-.224,.5-.5Zm5,1.5C24,5.383,18.617,0,12,0S0,5.383,0,12s5.383,12,12,12,12-5.383,12-12Zm-1,0c0,6.065-4.935,11-11,11S1,18.065,1,12,5.935,1,12,1s11,4.935,11,11Zm-5.185,3.888c.214-.174,.246-.488,.073-.702-.174-.213-.489-.246-.703-.074-.023,.019-2.37,1.889-5.186,1.889s-5.162-1.87-5.186-1.889c-.216-.172-.528-.139-.703,.074-.173,.214-.141,.528,.073,.702,.106,.087,2.638,2.112,5.815,2.112s5.709-2.025,5.815-2.112Z"/></svg>
     <input type="text" name="text" class="input" minlength="2" 
      maxlength="36" required />
      <span class="js-input-message"></span>
     </label>
     <label>Email
-   <svg class="form-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0a3b0a"><g fill="none" stroke="#0a3b0a" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m7 9l5 3.5L17 9"/><path d="M2 17V7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z"/></g></svg>
+   <svg class="form-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><g fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m7 9l5 3.5L17 9"/><path d="M2 17V7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z"/></g></svg>
     <input type="email" name="email" class="input" pattern="^[a-zA-Z0-9._\\-]+@[a-zA-Z0-9._\\-]+\\.[a-zA-Z]{2,4}$" maxlength="64" required>
     <span class="js-input-message"></span>
     </label>

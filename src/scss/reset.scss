@@ -46,14 +46,14 @@ label {
     font-family: 'Goblin One', cursive;
     font-size: 14px;
     font-weight: 600;
-    color: #102c12;
+    color: var(--color);
     width: 100%;
 }
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #bbeebb;
+    background: var(--bgbody);
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;

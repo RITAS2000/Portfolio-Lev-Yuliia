@@ -1,6 +1,7 @@
 @use "./mixins" as mix;
 
 .hero-section {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +34,19 @@
     gap: 8px;
 }
 
-
+#theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(90deg, #7eb972 50%, #da6334 50%);
+    color: var(--btc);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px var(--bgci);
+}
 .hero-titel {
     font-family: 'Walter Turncoat', cursive;
     font-size: 32px;
