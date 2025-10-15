@@ -41,6 +41,13 @@
     border-bottom: 1px solid var(--bc2);
     border-radius: 4px;
 }
+.about-me-list ul li::before {
+    content: "•";
+    color: var(--color);
+    /* або будь-який інший акцентний колір */
+    font-weight: bold;
+    margin-right: 10px;
+}
 .plush-img-container {
     display: flex;
     justify-content: space-between;

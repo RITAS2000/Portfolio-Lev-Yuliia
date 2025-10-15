@@ -27,6 +27,17 @@ export default function AboutMe() {
   <li class="about-me-list-item">
     <p>I also have experience working with databases and deploying projects using cloud platforms.</p>
   </li>
+    <li class="about-me-list-item">
+    <p>In my work, I follow my principles based on the
+    <span class="span-two-text">RITAS</span> system:</p>
+   <ul>
+  <li><span class="span-two-text">Rational:</span> The system makes decisions based on data and logic, works optimally.</li>
+  <li><span class="span-two-text">Innovative:</span> Constantly updates and implements new approaches.</li>
+  <li><span class="span-two-text">Thorough:</span> Ensures stable and predictable results.</li>
+  <li><span class="span-two-text">Adaptive:</span> Adjusts to different conditions and user needs.</li>
+  <li><span class="span-two-text">Systematic:</span> A comprehensive approach that combines all elements into a coherent structure.</li>
+</ul>
+  </li>
 </ul>
 <div class="plush-img-container">
 <img src="/plush2.png" class="plush-img">
