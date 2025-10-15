@@ -5,7 +5,7 @@ export default function Portfolio() {
   portfolioSection.innerHTML = `<div><h2 class="portfolio-title">Portfolio</h2><p class="portfolio-text">Here, you can view some projects from my training practice — both individual and group projects.</p></div>
   <ul class="portfolio-list">
   <li class="portfolio-item">
-  <a href="https://portfolio-lev-yuliia.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/my-portfolio-rrr.jpg" class="portfolio-img" alt="My Portfolio"></a>
+  <a href="https://portfolio-lev-yuliia.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/projects/my-portfolio-rrr.jpg" class="portfolio-img" alt="My Portfolio"></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">My Portfolio</h3>
   <a href="https://github.com/RITAS2000/Portfolio-Lev-Yuliia" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a>
@@ -22,7 +22,7 @@ export default function Portfolio() {
   </div>
   </li>
   <li class="portfolio-item">
-  <a href="https://cars-project-azure.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/car.jpg" class="portfolio-img" alt="Rental Car"></a>
+  <a href="https://cars-project-azure.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/projects/car.jpg" class="portfolio-img" alt="Rental Car"></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">Rental Car</h3>
   <a href="https://github.com/RITAS2000/cars-project" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a>
@@ -37,7 +37,7 @@ export default function Portfolio() {
  </div>
   </div>
   </li>
-  <li class="portfolio-item"><a href="https://d-cgroup-project-f1-x2.vercel.app/" target="_blank" rel="noreferrer noopener"><img src="/taste.jpg" class="portfolio-img" alt="Tasteorama"></a>
+  <li class="portfolio-item"><a href="https://d-cgroup-project-f1-x2.vercel.app/" target="_blank" rel="noreferrer noopener"><img src="/projects/taste.jpg" class="portfolio-img" alt="Tasteorama"></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">Tasteorama</h3>
   <a href="https://github.com/RITAS2000/DCgroup-project-f1-x2" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a></div>
@@ -50,7 +50,7 @@ export default function Portfolio() {
  <p class="project-item-text"><span class="project-item-span">Tech Stack:</span> React, Redux, CSS Modules, JavaScript, Node, MongoDB, HTML, Vercel.</p>
  </div>
   </div></li>
-  <li class="portfolio-item"><a href="https://ritas2000.github.io/stp-8884/" target="_blank" rel="noreferrer noopener"><img src="/rivengard.jpg" class="portfolio-img" alt="Rivengard"></a>
+  <li class="portfolio-item"><a href="https://ritas2000.github.io/stp-8884/" target="_blank" rel="noreferrer noopener"><img src="/projects/rivengard.jpg" class="portfolio-img" alt="Rivengard"></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">Rivengard</h3>
   <a href="http://github.com/RITAS2000/stp-8884" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a></div>
@@ -63,7 +63,7 @@ export default function Portfolio() {
  <p class="project-item-text"><span class="project-item-span">Tech Stack:</span> HTML, CSS, JavaScript.</p>
  </div>
   </div></li>
-  <li class="portfolio-item"><a href="https://ritas2000.github.io/js-project-dcgroup/" target="_blank" rel="noreferrer noopener"><img src="/lloyd.jpg" class="portfolio-img" alt="Portfolio"></a>
+  <li class="portfolio-item"><a href="https://ritas2000.github.io/js-project-dcgroup/" target="_blank" rel="noreferrer noopener"><img src="/projects/lloyd.jpg" class="portfolio-img" alt="Portfolio"></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">Portfolio</h3>
   <a href="https://github.com/RITAS2000/js-project-dcgroup" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a></div>
@@ -76,7 +76,7 @@ export default function Portfolio() {
  <p class="project-item-text"><span class="project-item-span">Tech Stack:</span> HTML, CSS, JavaScript.</p>
  </div>
   </div></li>
-  <li class="portfolio-item"><a href="https://ritas2000.github.io/project-dcgroup/" target="_blank" rel="noreferrer noopener"><img src="/green.jpg" class="portfolio-img" alt="Green Harvest."></a>
+  <li class="portfolio-item"><a href="https://ritas2000.github.io/project-dcgroup/" target="_blank" rel="noreferrer noopener"><img src="/projects/green.jpg" class="portfolio-img" alt="Green Harvest."></a>
   <div>
   <div class="project-container-title"><h3 class="project-name">Green Harvest</h3>
   <a href="https://github.com/RITAS2000/project-dcgroup" target="_blank" rel="noreferrer noopener" class="project-link">GitHub</a></div>
