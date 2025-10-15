@@ -12,7 +12,7 @@ export default function Resume() {
     </div><div class="star" style="top:10%; left:20%;"><img src="/star.png" class="rotating-star" width="100" height="100"></div>
   <div class="star" style="top:30%; left:50%;"><img src="/star.png" class="rotating-star" width="150" height="150"></div>
   <div class="star" style="top:70%; left:80%;"><img src="/star.png" class="rotating-star" width="100" height="100"></div>
-  <div class="star" style="top:50%; left:10%;"><img src="/star.png" class="rotating-star" width="150" height="150"></div>
+  <div class="star" style="top:50%; left:5%;"><img src="/star.png" class="rotating-star" width="150" height="150"></div>
   <div class="star" style="top:80%; left:40%;"><img src="/star.png" class="rotating-star" width="100" height="100">`;
   return resumeSection;
 }
