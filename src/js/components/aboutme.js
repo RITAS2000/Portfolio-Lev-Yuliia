@@ -31,12 +31,15 @@ export default function AboutMe() {
     <p>In my work, I follow my principles based on the
     <span class="span-two-text">RITAS</span> system:</p>
    <ul>
-  <li><span class="span-two-text">Rational:</span> The system makes decisions based on data and logic, works optimally.</li>
-  <li><span class="span-two-text">Innovative:</span> Constantly updates and implements new approaches.</li>
-  <li><span class="span-two-text">Thorough:</span> Ensures stable and predictable results.</li>
-  <li><span class="span-two-text">Adaptive:</span> Adjusts to different conditions and user needs.</li>
-  <li><span class="span-two-text">Systematic:</span> A comprehensive approach that combines all elements into a coherent structure.</li>
+  <li><span class="span-two-text">Rational:</span> <span class="span-three-text">The system makes decisions based on data and logic, works optimally.</span></li>
+  <li><span class="span-two-text">Innovative:</span> <span class="span-three-text">Constantly updates and implements new approaches.</span></li>
+  <li><span class="span-two-text">Thorough:</span> <span class="span-three-text">Ensures stable and predictable results.</span></li>
+  <li><span class="span-two-text">Adaptive:</span> <span class="span-three-text">Adjusts to different conditions and user needs.</span></li>
+  <li><span class="span-two-text">Systematic:</span> <span class="span-three-text">A comprehensive approach that combines all elements into a coherent structure.</span></li>
 </ul>
+  </li>
+   <li class="about-me-list-item">
+    <p>I am looking for people who want effective results in their projects, even if they have a small budget. As a beginner, I want to work with motivated clients to showcase my coding skills. Every project helps me learn, get inspired by new ideas, and bring my clients' ideas to life.</p>
   </li>
 </ul>
 <div class="plush-img-container">

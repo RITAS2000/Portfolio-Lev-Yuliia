@@ -169,7 +169,8 @@
 .certifications-title,
 .about-me-title,
 .skills-title,
-.portfolio-title {
+.portfolio-title,
+.pricing-title {
   @include mix.title();
 
 }
@@ -177,14 +178,17 @@
 .resume-text,
 .certifications-text,
 .skills-text,
-.portfolio-text {
+.portfolio-text,
+.pricing-text {
     @include mix.text();
 }
 .span-two-text {
     font-family: Walter Turncoat, cursive;
     color: var(--herotc)
 }
-
+.span-three-text {
+    font-size: 14px;
+}
 @media screen and (min-width: 768px){
     .container {
         max-width: 768px;

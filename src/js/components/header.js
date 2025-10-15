@@ -15,6 +15,7 @@ export default function Header() {
     <li><a href="#aboutme" class="header-nav-link">About My</a></li>
     <li><a href="#skills" class="header-nav-link">Skills</a></li>
     <li><a href="#portfolio" class="header-nav-link">Portfolio</a></li>
+    <li><a href="#pricing" class="header-nav-link">Pricing</a></li>
     <li><a href="#form" class="header-nav-link">Connect</a></li>
     </ul></nav>
    
@@ -38,6 +39,7 @@ export default function Header() {
     <li><a href="#aboutme" class="modal-nav-link">About My</a></li>
     <li><a href="#skills" class="modal-nav-link">Skills</a></li>
     <li><a href="#portfolio" class="modal-nav-link">Portfolio</a></li>
+    <li><a href="#pricing" class="modal-nav-link">Pricing</a></li>
     <li><a href="#form" class="modal-nav-link">Connect</a></li>
     </ul>
      

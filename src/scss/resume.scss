@@ -6,7 +6,7 @@
     justify-content: center;
     gap: 16px;
     padding-top: 40px;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
    
 }
 
@@ -63,7 +63,8 @@
 @media screen and (min-width: 768px) {
     .resume-section {
         gap: 20px;
-        padding-bottom: 6px;
+        padding-top: 50px;
+        padding-bottom: 24px;
     }
 .resume-container {
         

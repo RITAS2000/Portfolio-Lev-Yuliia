@@ -5,15 +5,12 @@
     align-items: center;
     gap: 40px;
     padding-top: 40px;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
 background: radial-gradient(ellipse at 50% 30%,
-            /* центр овалу */
             #fff 5%,
-            /* світлий центр займає тільки 5% */
             #888 10%,
-            /* проміжний колір для плавності (опційно) */
             #191a19 100%
-            /* темні краї */
+           
         );
 }
 
@@ -170,7 +167,8 @@ background: radial-gradient(ellipse at 50% 30%,
         transform: scale(1.3);
     }
     .skills-section {
-        padding-bottom: 6px;
+        padding-top: 50px;
+        padding-bottom: 24px;
     }
     .soft-list {   
         max-width: 720px;

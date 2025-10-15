@@ -1,8 +1,8 @@
 export default function Portfolio() {
-  const sectionPortfolio = document.createElement('section');
-  sectionPortfolio.id = 'portfolio';
-  sectionPortfolio.classList.add('container', 'portfolio-section');
-  sectionPortfolio.innerHTML = `<div><h2 class="portfolio-title">Portfolio</h2><p class="portfolio-text">Here, you can view some projects from my training practice — both individual and group projects.</p></div>
+  const portfolioSection = document.createElement('section');
+  portfolioSection.id = 'portfolio';
+  portfolioSection.classList.add('container', 'portfolio-section');
+  portfolioSection.innerHTML = `<div><h2 class="portfolio-title">Portfolio</h2><p class="portfolio-text">Here, you can view some projects from my training practice — both individual and group projects.</p></div>
   <ul class="portfolio-list">
   <li class="portfolio-item">
   <a href="https://portfolio-lev-yuliia.vercel.app/" target="_blank" rel="noreferrer noopener"><img  src="/my-portfolio-rrr.jpg" class="portfolio-img" alt="My Portfolio"></a>
@@ -15,7 +15,7 @@ export default function Portfolio() {
  <p class="project-item-text"><span class="project-item-span">Type:</span> Solo</p>
  <p class="project-item-text"><span class="project-item-span">Year:</span> 2025</p>
  </div>
- <p class="project-item-text">Personal project – portfolio. Designed, developed front-end and back-end, and deployed independently. Includes a responsive design for mobile, tablet, and desktop versions. Used Vite as a bundler, Vercel for deployment, and the Swiper library for interactive sliders. The project features interactive sections, slider for skills, as well as a contact form for feedback.</p>
+ <p class="project-item-text">Personal project - portfolio. Designed, developed front-end and back-end, and deployed independently. Includes a responsive design for mobile, tablet, and desktop versions. Used Vite as a bundler, Vercel for deployment, and the Swiper library for interactive sliders. The project features interactive sections, slider for skills, as well as a contact form for feedback.</p>
 
  <p class="project-item-text"><span class="project-item-span">Tech Stack:</span> HTML, SCSS, JavaScript, Vercel.</p>
  </div>
@@ -89,5 +89,5 @@ export default function Portfolio() {
  <p class="project-item-text"><span class="project-item-span">Tech Stack:</span> HTML, CSS, JavaScript.</p>
  </div>
   </div></li></ul>`;
-  return sectionPortfolio;
+  return portfolioSection;
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 20px;
     padding-top: 40px;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
 }
 
 .portfolio-list {
@@ -103,7 +103,8 @@
 
 @media screen and (min-width: 768px) {
     .portfolio-section {
-        padding-bottom: 6px;
+        padding-top: 50px;
+        padding-bottom: 24px;
         }
     .portfolio-list {
         display: flex;
