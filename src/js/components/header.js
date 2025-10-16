@@ -43,7 +43,7 @@ export default function Header() {
     <li><a href="#form" class="modal-nav-link">Connect</a></li>
     </ul>
      
-    <a href="https://www.canva.com/design/DAGi4BypnSM/SBUeIUMxwoWk9knlu18kuQ/view?utm_content=DAGi4BypnSM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h206f792fbb" target="_blank" rel="noreferrer noopener" class="modal-resume-link"><span>Resume</span></a></nav>
+ </nav>
   </div>
 </div>
   </section>`;

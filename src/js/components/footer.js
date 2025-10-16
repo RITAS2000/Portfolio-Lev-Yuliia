@@ -11,8 +11,7 @@ export default function Footer() {
    
     <address class="footer-address">
     <div class="address-item">Ukraine, Lviv</div>
-    <div class="address-item">Telegram: @ritas_2000</div>
-    <div class="address-item">Email: <a href="mailto:yuliya.lev.2000@gmail.com" class="emeil-link">yuliya.lev.2000@gmail.com</a></div>
+    <div class="address-item">Email: <a href="mailto:ritas.system.2000@gmail.com" class="emeil-link">ritas.system.2000@gmail.com</a></div>
    
     </address>
     <p class="footer-text">© 2025 Lev Yuliia - RITAS System</p>`;

@@ -12,7 +12,6 @@ export default function Hero() {
   <div class="hero-img-container"><img src="photo_2025.jpg"  alt="Lev Yuliia" width="201" height="201" class="hero-img"></div>
   </div>
   <div class="hero-links">
-  <a href="https://www.canva.com/design/DAGi4BypnSM/SBUeIUMxwoWk9knlu18kuQ/view?utm_content=DAGi4BypnSM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h206f792fbb" target="_blank" rel="noreferrer noopener" class="hero-link"><span>Resume</span></a>
   <a href="https://github.com/RITAS2000/Portfolio-Lev-Yuliia" class="gh-link" target="_blank" rel="noreferrer noopener"><img src="/gh-icon.jpg" width="40" height="40"></a>
   </div>`;
   return heroSection;
