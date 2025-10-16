@@ -32,12 +32,16 @@
     overflow: hidden;
     padding: 20px 16px 16px 16px;
 }
+.portfolio-img-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
 
 .portfolio-img {
     width: 100%;
     max-width: 309px;
     height: 200px;
-    border-radius: 8px;
     transition: box-shadow 0.8s ease, transform 0.8s ease;
 }
 
