@@ -61,7 +61,7 @@ export default function Form() {
   });
 
   formSection.innerHTML = `<div class='title-container'><h2 data-i18n="form.title" class="form-title"></h2>
-  <p data-i18n="form.text" class="form-text">You can write me a message, share your thoughts, or simply leave a comment using this form.</p></div>
+  <p data-i18n="form.text" class="form-text"></p></div>
 
   <form class="form">
     <label  class="label"><span data-i18n="form.label_name"></span>

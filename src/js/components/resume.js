@@ -7,7 +7,7 @@ export default function Resume() {
   resumeSection.classList.add('container', 'resume-section');
   resumeSection.innerHTML = `
   <div class="resume-text-container">
-  <h2 data-i18n="resume.title" class="resume-title"></h2><p data-i18n="resume.description" class="certifications-text">This certificate confirms the successful completion of the GoIT course.</p></div>
+  <h2 data-i18n="resume.title" class="resume-title"></h2><p data-i18n="resume.description" class="certifications-text"></p></div>
    
     </div>
     <div class="certifications-img-container"><img src="/Certifications.jpg" alt="Certifications" class="certifications-img"></div>

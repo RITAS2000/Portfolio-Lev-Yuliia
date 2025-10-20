@@ -34,7 +34,7 @@ export default function MySkills() {
   </div>
   </div>
   <div>
-  <p data-i18n="skills.softSkillsDescription" class="skills-text">Take a look at my soft skills that support me in my development work.</p>
+  <p data-i18n="skills.softSkillsDescription" class="skills-text"></p>
   <ul class="soft-list">
   <li class="skills-soft-item"><p data-i18n="skills.softSkills1"></li>
 
