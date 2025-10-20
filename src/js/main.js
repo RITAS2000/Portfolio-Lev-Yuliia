@@ -10,6 +10,7 @@ import Resume from './components/resume.js';
 import Pricing from './components/pricing.js';
 import Form from './components/form.js';
 import Footer from './components/footer.js';
+import { loadLanguage } from './lang.js';
 
 const bodyI = document.querySelector('#body-index');
 const mainI = document.createElement('main');
@@ -26,3 +27,4 @@ mainI.appendChild(Form());
 bodyI.appendChild(Footer());
 
 swiperSkills();
+loadLanguage();

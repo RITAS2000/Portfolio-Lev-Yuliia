@@ -1,0 +1,138 @@
+{
+  "header": {
+    "about": "About Me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "connect": "Connect"
+  },
+   "hero": {
+    "title": "Hello, I'm Yuliia Lev — Full-Stack Developer.",
+    "description": "Take a journey into my portfolio and discover what I build."
+  },
+   "aboutme": {
+    "title": "About Me",
+    "list1": "Hi! I'm Yuliia Lev, a junior full-stack developer. I build websites both from ready-made templates and from scratch by writing code myself.",
+    "list2": "I enjoy experimenting with different technologies in web development and finding simple solutions to complex problems.",
+    "list3": "I love working in a team and have experience as a team lead. I always motivate my colleagues with the motto: \"If you don't know how to do it — just start!\"",
+    "list4": "I have completed courses at GoIT School and received a certificate as a Full-Stack Developer.",
+    "list5": "During my studies, I gained practical experience building web projects from scratch and working with various technologies.",
+    "list6": "I also have experience working with databases and deploying projects using cloud platforms.",
+    "list7": "In my work, I follow my principles based on the RITAS system: Rational, Innovative, Thorough, Adaptive, Systematic.",
+    "list8": "I am looking for people who want effective results in their projects, even if they have a small budget. As a beginner, I want to work with motivated clients to showcase my coding skills.",
+    "list9": "When it comes to achieving goals, I follow the RRR principle — Resolve, Resolution, Result.",
+    "list10": "I believe that work should not only deliver results but also bring joy.",
+    "list11": "Outside of work, I like hanging out with my family or diving into computer games."
+  },
+    "skills": {
+    "title": "My Skills",
+    "description": "Take a look at my skills by scrolling through the slider to see the technologies I work with.",
+    "softSkillsDescription": "Take a look at my soft skills that support me in my development work.",
+  
+      "softSkills1": "Independent thinking - I always analyze first and try solutions independently.",
+      "softSkills2": "Systemic thinking - I understand how different parts of code and the project interact.",
+     "softSkills3": "Organization - I keep files, project structure, and UI organized.",
+      "softSkills4": "Analytical skills - I find bugs and solve them logically.",
+      "softSkills5": "Patience - I test and fix issues until everything works correctly.",
+      "softSkills6": "Creativity - I generate ideas for UI, animations, and game elements.",
+      "softSkills7": "Communication - I clearly formulate requests and explain code logic.",
+      "softSkills8": "Flexibility - I quickly adapt to new technologies.",
+      "softSkills9": "Teamwork - I integrate my solutions into the team project."
+    },
+     "portfolio": {
+    "title": "Portfolio",
+    "description": "Here, you can view some projects from my training practice — both individual and group projects.",
+
+  
+    "project1_type_label": "Type:",
+    "project1_type_value": "Solo",
+    "project1_year_label": "Year:",
+    "project1_year_value": "2025",
+    "project1_description": "Personal project - portfolio. Designed, developed front-end and back-end, and deployed independently. Includes a responsive design for mobile, tablet, and desktop versions. Used Vite as a bundler, Vercel for deployment, and the Swiper library for interactive sliders. The project features interactive sections, slider for skills, as well as a contact form for feedback.",
+    "project1_tech_label": "Tech Stack:",
+    "project1_tech_value": "HTML, SCSS, JavaScript, Vercel.",
+
+    "project2_type_label": "Type:",
+    "project2_type_value": "Solo",
+    "project2_year_label": "Year:",
+    "project2_year_value": "2025",
+    "project2_description": "Developed an hourly car rental application with a desktop-responsive design, implementing filters by brand, hourly price, and minimum-to-maximum mileage. The application state is managed using Redux. Also created a detailed car description page with a booking form and ensured smooth functionality across all components.",
+    "project2_tech_label": "Tech Stack:",
+    "project2_tech_value": "React, Redux, CSS Modules, JavaScript, HTML, Vercel.",
+
+
+    "project3_type_label": "Type:",
+    "project3_type_value": "Group",
+    "project3_year_label": "Year:",
+    "project3_year_value": "2025",
+    "project3_description": "Led a team of 10 developers in building both the front-end and back-end of the Tasteorama platform. Oversaw the development of responsive UI, integration with the backend for data retrieval, and ensured smooth communication between front-end and back-end components. Coordinated tasks, maintained code quality, and guided the team to deliver the project on schedule.",
+    "project3_tech_label": "Tech Stack:",
+    "project3_tech_value": "React, Redux, CSS Modules, JavaScript, Node, MongoDB, HTML, Vercel.",
+
+
+    "project4_type_label": "Type:",
+    "project4_type_value": "Group",
+    "project4_year_label": "Year:",
+    "project4_year_value": "2025",
+   
+    "project4_description": "Collaborated in a small team (designer and one other developer) on the implementation of the user interface and interactive features for a game by Evoplay. I was responsible for developing the 'About the Game', 'Features', 'How to Play', 'Preview', 'User Reviews', and 'FAQ' sections, ensuring a responsive design and smooth functionality across all components.",
+    "project4_tech_label": "Tech Stack:",
+    "project4_tech_value": "HTML, CSS, JavaScript.",
+
+    
+
+    "project5_type_label": "Type:",
+    "project5_type_value": "Group",
+    "project5_year_label": "Year:",
+    "project5_year_value": "2025",
+    "project5_description": "Led a team of 9 developers in creating a modern portfolio website. Focused on responsive design and interactive UI using JavaScript libraries such as Swiper and Accordion. The project emphasized effective collaboration, task delegation, and code quality to deliver a polished final product on time.",
+    "project5_tech_label": "Tech Stack:",
+    "project5_tech_value": "HTML, CSS, JavaScript.",
+
+
+     "project6_type_label": "Type:",
+    "project6_type_value": "Group",
+    "project6_year_label": "Year:",
+    "project6_year_value": "2024",
+    "project6_description": "Led a team of 9 developers in creating a website using the Vite bundler, which ensured fast builds and a smooth development process. This project became a valuable hands-on experience in honing teamwork skills, maintaining code quality, and meeting deadlines.",
+    "project6_tech_label": "Tech Stack:",
+    "project6_tech_value": "HTML, CSS, JavaScript."
+  },
+   "resume": {
+    "title": "Certifications",
+    "description": "This certificate confirms the successful completion of the GoIT course."
+  },
+  "pricing": {
+"title": "Pricing",
+"text1": "Today, I am ready to offer my skills and creativity to help bring your ideas to life.",
+"service1": "Website layout from Figma mockup",
+"service2": "Responsive design for mobile devices",
+"service3": "Interactive elements and contact forms",
+"service4": "Basic SEO optimization",
+"service5": "Deployment to GitHub Pages or Vercel",
+"text2": "These are the starting prices for my services, though the final cost may vary depending on the scope and requirements of your project.",
+"price1": "Single-page website / landing: $90",
+"price2": "Small project (2-3 pages): $125",
+"price3": "Medium project (multi-page / simple functionality): $210"
+},
+"form": {
+"title": "Let's Connect!",
+"text": "You can write me a message, share your thoughts, or simply leave a comment using this form.",
+"label_name": "Name",
+"label_email": "Email",
+"label_message": "Message",
+"button": "Send",
+"valid_name": "Looks good!",
+"invalid_name": "Enter from 2 to 36 characters",
+"valid_email": "Email looks valid",
+"invalid_email": "Please enter a valid email (e.g. name@gmail.com).",
+"valid_message": "Looks good!",
+"invalid_message": "Enter from 5 to 560 characters"
+},
+  "footer": {
+    "address_country": "Ukraine, Lviv",
+    "address_email_label": "Email:",
+    "copyright": "© 2025 Lev Yuliia - RITAS System"
+  }
+
+  }

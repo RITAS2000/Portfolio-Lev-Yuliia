@@ -1,3 +1,5 @@
+import { t, onLanguageChange } from '../lang.js';
+
 export default function Header() {
   const header = document.createElement('header');
 
@@ -12,11 +14,11 @@ export default function Header() {
     
       <nav class="header-nav">
     <ul class="header-nav-list">
-    <li><a href="#aboutme" class="header-nav-link">About My</a></li>
-    <li><a href="#skills" class="header-nav-link">Skills</a></li>
-    <li><a href="#portfolio" class="header-nav-link">Portfolio</a></li>
-    <li><a href="#pricing" class="header-nav-link">Pricing</a></li>
-    <li><a href="#form" class="header-nav-link">Connect</a></li>
+  <li><a href="#aboutme" data-i18n="header.about" class="header-nav-link"></a></li>
+        <li><a href="#skills" data-i18n="header.skills" class="header-nav-link"></a></li>
+        <li><a href="#portfolio" data-i18n="header.portfolio" class="header-nav-link"></a></li>
+        <li><a href="#pricing" data-i18n="header.pricing" class="header-nav-link"></a></li>
+        <li><a href="#form" data-i18n="header.connect" class="header-nav-link"></a></li>
     </ul></nav>
    
     <button type="button" class="burger">
@@ -36,17 +38,22 @@ export default function Header() {
     </button>
     <nav class="modal-nav">
     <ul class="modal-nav-list">
-    <li><a href="#aboutme" class="modal-nav-link">About My</a></li>
-    <li><a href="#skills" class="modal-nav-link">Skills</a></li>
-    <li><a href="#portfolio" class="modal-nav-link">Portfolio</a></li>
-    <li><a href="#pricing" class="modal-nav-link">Pricing</a></li>
-    <li><a href="#form" class="modal-nav-link">Connect</a></li>
+    <li><a href="#aboutme" data-i18n="header.about" class="modal-nav-link"></a></li>
+    <li><a href="#skills" data-i18n="header.skills" class="modal-nav-link">Skills</a></li>
+    <li><a href="#portfolio" data-i18n="header.portfolio"  class="modal-nav-link">Portfolio</a></li>
+    <li><a href="#pricing" data-i18n="header.pricing" class="modal-nav-link">Pricing</a></li>
+    <li><a href="#form" data-i18n="header.connect" class="modal-nav-link">Connect</a></li>
     </ul>
      
  </nav>
   </div>
 </div>
   </section>`;
+  function renderTexts() {
+    header.querySelectorAll('[data-i18n]').forEach(el => {
+      el.textContent = t(el.dataset.i18n);
+    });
+  }
 
   const modalWindow = header.querySelector('.backdrop-burger');
   const openMenuBtn = header.querySelector('.burger');
@@ -100,6 +107,8 @@ export default function Header() {
   modalLinks.forEach(link => {
     link.addEventListener('click', closeModal);
   });
+
+  onLanguageChange(renderTexts);
 
   return header;
 }

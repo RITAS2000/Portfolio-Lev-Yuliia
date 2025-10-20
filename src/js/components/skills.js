@@ -1,3 +1,5 @@
+import { t, onLanguageChange } from '../lang.js';
+
 export default function MySkills() {
   const skillsSection = document.createElement('section');
   skillsSection.id = 'skills';
@@ -5,8 +7,8 @@ export default function MySkills() {
   skillsSection.innerHTML = `<div class="skills-container">
   <div>
  
-  <h2 class="skills-title">My Skills</h2>
-  <p class="skills-text">Take a look at my skills by scrolling through the slider to see the technologies I work with.</p>
+  <h2 data-i18n="skills.title" class="skills-title"></h2>
+  <p data-i18n="skills.description" class="skills-text"></p>
 
   <div class="swiper swiper-skills">
   <div class="swiper-wrapper">
@@ -32,23 +34,29 @@ export default function MySkills() {
   </div>
   </div>
   <div>
-  <p class="skills-text">Take a look at my soft skills that support me in my development work.</p>
+  <p data-i18n="skills.softSkillsDescription" class="skills-text">Take a look at my soft skills that support me in my development work.</p>
   <ul class="soft-list">
-  <li class="skills-soft-item"><p><span class="span-two-text">Independent thinking</span> <span>- I always analyze first and try solutions independently.</span></p></li>
+  <li class="skills-soft-item"><p data-i18n="skills.softSkills1"></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Systemic thinking</span> <span>- I understand how different parts of code and the project interact.</span></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills2"></p></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Organization</span> <span>- I keep files, project structure, and UI organized.</span></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills3"></p></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Analytical skills</span> <span>- I find bugs and solve them logically.</span></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills4"></p></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Patience</span> <span>- I test and fix issues until everything works correctly.</span></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills5"></p></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Creativity</span> <span>- I generate ideas for UI, animations, and game elements.</span></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills6"></p></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Communication</span> <span>- I clearly formulate requests and explain code logic.</span></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills7"></p></li>
 
-<li class="skills-soft-item"><p><span class="span-two-text">Flexibility</span> <span>- I quickly adapt to new technologies.</span></p></li>
-<li class="skills-soft-item"><p><span class="span-two-text">Teamwork</span> <span>- I integrate my solutions into the team project.</span></p></li></ul></div>`;
+<li class="skills-soft-item"><p data-i18n="skills.softSkills8"></p></li>
+<li class="skills-soft-item"><p data-i18n="skills.softSkills9"></p></li></ul></div>`;
+  function renderTexts() {
+    skillsSection.querySelectorAll('[data-i18n]').forEach(el => {
+      el.textContent = t(el.dataset.i18n);
+    });
+  }
+  onLanguageChange(renderTexts);
   return skillsSection;
 }

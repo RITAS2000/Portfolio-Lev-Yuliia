@@ -33,7 +33,20 @@
     flex-direction: column;
     gap: 8px;
 }
-
+#lang-toggle {
+    position: fixed;
+        bottom: 70px;
+        right: 20px;
+        z-index: 1000;
+        width: 36px;
+        height: 36px;
+        font-family: "Gabarito", sans-serif;
+        font-size: 11px;
+        background: #7eb972;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 0 6px 2px var(--bgci);
+}
 #theme-toggle {
     position: fixed;
     bottom: 20px;

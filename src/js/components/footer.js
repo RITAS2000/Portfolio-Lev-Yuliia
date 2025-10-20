@@ -1,3 +1,5 @@
+import { t, onLanguageChange } from '../lang.js';
+
 export default function Footer() {
   const footer = document.createElement('footer');
   footer.classList.add('footer-section');
@@ -10,10 +12,16 @@ export default function Footer() {
     </a>
    
     <address class="footer-address">
-    <div class="address-item">Ukraine, Lviv</div>
-    <div class="address-item">Email: <a href="mailto:ritas.system.2000@gmail.com" class="emeil-link">ritas.system.2000@gmail.com</a></div>
+    <p data-i18n="footer.address_country" class="address-item"></p>
+    <p  class="address-item"><span data-i18n="footer.address_email_label"></span> <a href="mailto:ritas.system.2000@gmail.com" class="emeil-link">ritas.system.2000@gmail.com</a></p>
    
     </address>
-    <p class="footer-text">© 2025 Lev Yuliia - RITAS System</p>`;
+    <p data-i18n="footer.copyright" class="footer-text"></p>`;
+  function renderTexts() {
+    footer.querySelectorAll('[data-i18n]').forEach(el => {
+      el.textContent = t(el.dataset.i18n);
+    });
+  }
+  onLanguageChange(renderTexts);
   return footer;
 }

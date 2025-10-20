@@ -63,6 +63,14 @@ body.modal-open {
     overflow: hidden;
     
 }
+body.ua .header-nav-link {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    /* для української */
+}
+body.ua .none-ua {
+    display: none;
+}
 main{
     display: flex;
     flex-direction: column;
