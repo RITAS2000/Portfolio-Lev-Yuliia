@@ -71,6 +71,10 @@ body.ua .header-nav-link {
 body.ua .none-ua {
     display: none;
 }
+body.ua .span-two-text{
+    font-family: Walter Turncoat, cursive;
+        color: var(--herotc);
+}
 main{
     display: flex;
     flex-direction: column;

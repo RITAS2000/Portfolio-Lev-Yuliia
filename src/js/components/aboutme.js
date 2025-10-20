@@ -14,7 +14,7 @@ export default function AboutMe() {
   <li class="about-me-list-item">
     <p data-i18n="aboutme.list2"></p></li>
   <li class="about-me-list-item">
-    <p data-i18n="aboutme.list3"></p></li>
+    <p> <span data-i18n="aboutme.list3"></span><span data-i18n="aboutme.list3_span" class="span-two-text"></span></p></li>
   </ul>
   <div class="plush-img-container">
   <img src="/plush2.png" class="plush-img">
@@ -31,7 +31,7 @@ export default function AboutMe() {
     <p data-i18n="aboutme.list6"></p>
   </li>
     <li class="about-me-list-item">
-    <p data-i18n="aboutme.list7"></p>
+    <p ><span data-i18n="aboutme.list7"></span><span data-i18n="aboutme.list7_span" class="span-two-text"></span></p>
  <li class="about-me-list-item">
     <p data-i18n="aboutme.list8"></p>
   </li>
@@ -42,7 +42,7 @@ export default function AboutMe() {
 <img src="/plush2.png" class="plush-img"></div>
   <ul class="about-me-list">
   <li class="about-me-list-item">
- <p data-i18n="aboutme.list9"></p></li>
+ <p><span data-i18n="aboutme.list9"></span><span data-i18n="aboutme.list9_span" class="span-two-text"></span></p></li>
   <li class="about-me-list-item">
 <p data-i18n="aboutme.list10"></p>
 </li>

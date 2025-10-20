@@ -3,7 +3,7 @@ import en from '../lang/en.json';
 
 const translations = { ua, en };
 
-let currentLang = localStorage.getItem('lang') || 'ua';
+let currentLang = localStorage.getItem('lang') || 'en';
 let currentLangData = translations[currentLang];
 const listeners = [];
 
@@ -28,6 +28,6 @@ export function onLanguageChange(fn) {
 }
 
 export async function toggleLanguage() {
-  const newLang = currentLang === 'ua' ? 'en' : 'ua';
+  const newLang = currentLang === 'en' ? 'ua' : 'en';
   await loadLanguage(newLang);
 }
