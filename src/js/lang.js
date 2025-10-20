@@ -1,5 +1,5 @@
-import ua from '/public/lang/ua.json';
-import en from '/public/lang/en.json';
+import ua from '../lang/ua.json';
+import en from '../lang/en.json';
 
 const translations = { ua, en };
 
@@ -8,9 +8,9 @@ let currentLangData = translations[currentLang];
 const listeners = [];
 
 export async function loadLanguage(lang = currentLang) {
-  const res = await fetch(`/lang/${lang}.json`);
-  const data = await res.json();
-  currentLangData = data;
+  //   const res = await fetch(`/lang/${lang}.json`);
+  //   const data = await res.json();
+  currentLangData = translations[lang];
   currentLang = lang;
   localStorage.setItem('lang', lang);
   document.body.classList.toggle('ua', lang === 'ua');
