@@ -19,6 +19,7 @@ export async function loadLanguage(lang = currentLang) {
 }
 
 export function t(path) {
+  if (!currentLangData) return '';
   return path.split('.').reduce((obj, key) => obj?.[key], currentLangData);
 }
 
@@ -28,4 +29,5 @@ export function onLanguageChange(fn) {
 
 export async function toggleLanguage() {
   const newLang = currentLang === 'ua' ? 'en' : 'ua';
+  await loadLanguage(newLang);
 }
