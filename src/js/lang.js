@@ -8,7 +8,6 @@ let currentLangData = translations[currentLang];
 const listeners = [];
 
 export async function loadLanguage(lang = currentLang) {
-  console.log('Завантажуємо мову:', lang);
   const res = await fetch(`/lang/${lang}.json`);
   const data = await res.json();
   currentLangData = data;
@@ -29,10 +28,4 @@ export function onLanguageChange(fn) {
 
 export async function toggleLanguage() {
   const newLang = currentLang === 'ua' ? 'en' : 'ua';
-  try {
-    await loadLanguage(newLang);
-    console.log('hhh');
-  } catch (e) {
-    console.error('Не вдалося завантажити мову:', newLang, e);
-  }
 }
