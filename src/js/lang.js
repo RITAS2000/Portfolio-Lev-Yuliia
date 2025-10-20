@@ -1,11 +1,17 @@
-let translations = {};
+import ua from '/public/lang/ua.json';
+import en from '/public/lang/en.json';
+
+const translations = { ua, en };
+
 let currentLang = localStorage.getItem('lang') || 'ua';
+let currentLangData = translations[currentLang];
 const listeners = [];
 
 export async function loadLanguage(lang = currentLang) {
   console.log('Завантажуємо мову:', lang);
   const res = await fetch(`/lang/${lang}.json`);
-  translations = await res.json();
+  const data = await res.json();
+  currentLangData = data;
   currentLang = lang;
   localStorage.setItem('lang', lang);
   document.body.classList.toggle('ua', lang === 'ua');
@@ -14,7 +20,7 @@ export async function loadLanguage(lang = currentLang) {
 }
 
 export function t(path) {
-  return path.split('.').reduce((obj, key) => obj?.[key], translations);
+  return path.split('.').reduce((obj, key) => obj?.[key], currentLangData);
 }
 
 export function onLanguageChange(fn) {
