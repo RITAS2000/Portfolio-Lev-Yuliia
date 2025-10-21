@@ -2,6 +2,7 @@ import axios from 'axios';
 import Toastify from 'toastify-js';
 import 'toastify-js/src/toastify.css';
 import { t, onLanguageChange, getCurrentLang } from '../lang.js';
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 export default function Form() {
   const formSection = document.createElement('section');
@@ -128,9 +129,8 @@ export default function Form() {
         : 'Failed to send message. Please try again.';
 
     axios
-      .post('http://localhost:3000/portfolio/message', data)
-      .then(response => {
-        console.log('Відповідь сервера:', response.data);
+      .post(`${backendUrl}/portfolio/message`, data)
+      .then(() => {
         form.reset();
         Toastify({
           text: successMessage,
