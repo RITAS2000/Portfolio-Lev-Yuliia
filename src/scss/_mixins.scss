@@ -94,9 +94,10 @@
 @mixin text(){
     font-family: "Gabarito", sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--color);
     text-align: center;
+   
 
     @media screen  and (min-width: 768px){
         font-size: 20px;

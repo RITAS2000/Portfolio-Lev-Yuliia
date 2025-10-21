@@ -63,7 +63,7 @@
 .hero-titel {
     font-family: 'Walter Turncoat', cursive;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--herotc);
     text-align: center;
     -webkit-text-stroke: 1px var(--bgci);
@@ -72,8 +72,9 @@
 .hero-text {
     font-family: "Gabarito", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--bgchf);
+    -webkit-text-stroke: 1px var(--bgci);
     text-align: center;
 
 }
