@@ -6,10 +6,11 @@ const translations = { ua, en };
 let currentLang = localStorage.getItem('lang') || 'en';
 let currentLangData = translations[currentLang];
 const listeners = [];
+export function getCurrentLang() {
+  return currentLang;
+}
 
 export async function loadLanguage(lang = currentLang) {
-  //   const res = await fetch(`/lang/${lang}.json`);
-  //   const data = await res.json();
   currentLangData = translations[lang];
   currentLang = lang;
   localStorage.setItem('lang', lang);

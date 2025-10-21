@@ -1,4 +1,7 @@
-import { t, onLanguageChange } from '../lang.js';
+import axios from 'axios';
+import Toastify from 'toastify-js';
+import 'toastify-js/src/toastify.css';
+import { t, onLanguageChange, getCurrentLang } from '../lang.js';
 
 export default function Form() {
   const formSection = document.createElement('section');
@@ -112,8 +115,46 @@ export default function Form() {
       email,
       message,
     };
+    const lang = getCurrentLang();
 
-    form.reset();
+    const successMessage =
+      lang === 'ua'
+        ? 'Ваше повідомлення успішно відправлено!'
+        : 'Your message has been sent successfully!';
+
+    const failMessage =
+      lang === 'ua'
+        ? 'Не вдалося відправити повідомлення. Спробуйте ще раз.'
+        : 'Failed to send message. Please try again.';
+
+    axios
+      .post('http://localhost:3000/portfolio/message', data)
+      .then(response => {
+        console.log('Відповідь сервера:', response.data);
+        form.reset();
+        Toastify({
+          text: successMessage,
+          duration: 3000,
+          newWindow: true,
+          gravity: 'top',
+          position: 'center',
+          style: {
+            background: 'linear-gradient(to right, #00b09b, #96c93d)',
+          },
+        }).showToast();
+      })
+      .catch(() => {
+        Toastify({
+          text: failMessage,
+          duration: 3000,
+          gravity: 'top',
+          position: 'center',
+          style: {
+            background: 'linear-gradient(to right, #ff5f6d, #ffc371)',
+          },
+        }).showToast();
+      });
+
     form.querySelectorAll('.input').forEach(input => {
       input.classList.remove('touched-invalid', 'touched-valid');
       const span = input.nextElementSibling;
