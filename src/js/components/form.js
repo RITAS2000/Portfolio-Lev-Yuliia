@@ -84,7 +84,7 @@ export default function Form() {
     <textarea name="message" rows="8" class="textarea input" minlength="5"maxlength="560" required></textarea>
     <span class="js-textaera-message"></span></label>
     <button type="submit"  class="button"><span data-i18n="form.button"></span></button>
-    </form>`;
+    </form><p data-i18n="form.attention" class="form-attention"></p>`;
 
   function clearInputs() {
     formSection.querySelectorAll('.input').forEach(input => {

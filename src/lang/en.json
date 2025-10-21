@@ -120,7 +120,7 @@
 },
 "form": {
 "title": "Let's Connect!",
-"text": "You can write me a message, share your thoughts, or simply leave a comment using this form.",
+"text": "You can write me a message, share your thoughts, or simply leave a comment using this form*.",
 "label_name": "Name",
 "label_email": "Email",
 "label_message": "Message",
@@ -130,7 +130,8 @@
 "valid_email": "Email looks valid",
 "invalid_email": "Please enter a valid email (e.g. name@gmail.com).",
 "valid_message": "Looks good!",
-"invalid_message": "Enter from 5 to 560 characters"
+"invalid_message": "Enter from 5 to 560 characters",
+"attention": "*Attention! If your message wasn't sent immediately, please wait a few minutes and try again — the server might be \"sleeping\"."
 },
   "footer": {
     "address_country": "Ukraine, Lviv",
